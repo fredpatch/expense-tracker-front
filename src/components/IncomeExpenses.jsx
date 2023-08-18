@@ -29,14 +29,14 @@ const IncomeExpenses = () => {
           {/* Display the total income with commas as a separator and "MAD" as the currency */}
           <p className="money plus">{income} MAD</p>
           {/* Display the equivalent income in XAF with commas as a separator */}
-          <h2 className="money plus">{(income * 61.33).toFixed(2)} XAF</h2>
+          <h2 className="money plus">{(income * 60.5).toFixed(2)} XAF</h2>
         </div>
         <div>
           <h4>Expense</h4>
           {/* Display the total expenses with commas as a separator and "MAD" as the currency */}
           <p className="money minus">{expense} MAD</p>
           {/* Display the equivalent expenses in XAF with commas as a separator */}
-          <h1 className="money minus">{(expense * 61.33).toFixed(2)} XAF</h1>
+          <h1 className="money minus">{(expense * 60.5).toFixed(2)} XAF</h1>
         </div>
       </div>
     </div>
